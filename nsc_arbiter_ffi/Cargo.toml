@@ -1,0 +1,11 @@
+[package]
+name = "nsc_arbiter_ffi"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+nsc_arbiter_core = { path = "../nsc_arbiter_core" }
+nsc_arbiter_supervisor = { path = "../nsc_arbiter_supervisor" }

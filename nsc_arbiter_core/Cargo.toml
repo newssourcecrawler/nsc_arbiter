@@ -1,0 +1,9 @@
+[package]
+name = "nsc_arbiter_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Keep empty unless you explicitly want serde derives.
+# If you want Serialize/Deserialize on Escalation, add:
+serde = { version = "1.0", features = ["derive"] }

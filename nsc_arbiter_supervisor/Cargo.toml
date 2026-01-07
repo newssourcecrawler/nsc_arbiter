@@ -1,0 +1,13 @@
+[package]
+name = "nsc_arbiter_supervisor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nsc_arbiter_core = { path = "../nsc_arbiter_core" }
+serde = { version = "1", features = ["derive"] }
+# std-only by default; no async, no IO, no logging deps
+
+[features]
+# reserved for future (e.g., persistence hooks, metrics)
+default = []

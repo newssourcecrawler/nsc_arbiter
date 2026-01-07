@@ -118,3 +118,5 @@ License
 
 MIT (or similar permissive license).
 Use it, ignore it, fork it, or delete it.
+This repository is intentionally quiet. Issues and discussions are disabled.
+
